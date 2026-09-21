@@ -14,6 +14,16 @@ Portal editorial estático sobre inteligencia artificial. HTML, CSS y JavaScript
 
 Las páginas contienen todo el contenido: navegación y lectura funcionan sin JavaScript. El JavaScript añade búsqueda insensible a tildes, filtros, contador y estado vacío, y guarda el tema localmente cuando el navegador lo permite. No hay analítica ni formularios que recojan datos.
 
+## Navegación histórica automática
+
+El JavaScript compartido añade **Ediciones ▾** al header de portada, archivo y todas las ediciones, sin modificar el contenido de las páginas históricas. Lee `data/editions.json` al abrir cada página y ordena las ediciones por `startDate`, de más reciente a más antigua. La edición mostrada se marca como activa; en portada se identifica mediante el enlace principal a la edición, y en el archivo no se marca ninguna.
+
+Dentro de cada edición, la navegación inferior calcula la edición anterior (más antigua) y la siguiente (más reciente) a partir del mismo índice. Los extremos sin edición disponible se muestran desactivados. No se generan ediciones ficticias para completar la navegación.
+
+El selector admite Tab, Enter/Espacio, flecha abajo y Escape; se cierra al hacer clic fuera o mover el foco fuera. Si falla la carga del índice, conserva un enlace al archivo y muestra un mensaje. Sin JavaScript, siguen disponibles los enlaces estáticos al archivo. La carga del JSON requiere HTTP(S): para probarla localmente, usar `node scripts/preview.mjs` en vez de abrir un archivo `file://`.
+
+Las rutas se resuelven desde `assets/app.js`, de modo que funcionan bajo `/ai-weekly/` y desde `editions/`. Al añadir una edición al JSON y publicar su HTML, el selector y las relaciones se actualizan sin regenerar las páginas históricas. No hay que editar el menú manualmente.
+
 ## Vista local
 
 Abrir `index.html` directamente o servir la carpeta con cualquier servidor estático. Con Node.js instalado, `node scripts/preview.mjs` sirve el sitio en `http://127.0.0.1:4173/ai-weekly/`, reproduciendo la subruta de GitHub Pages. No requiere instalar paquetes.
