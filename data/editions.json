@@ -1,0 +1,18 @@
+{
+  "title": "AI Weekly",
+  "author": "Luis Martínez Plano",
+  "editions": [
+    {
+      "number": 1,
+      "slug": "2026-09-14",
+      "startDate": "2026-09-14",
+      "endDate": "2026-09-20",
+      "publishedAt": "2026-09-21",
+      "title": "La IA pasa de responder a actuar",
+      "summary": "Agentes que trabajan, modelos que conversan y una industria que debate hasta dónde acelerar.",
+      "url": "editions/2026-09-14.html",
+      "content": "data/2026-09-14.json",
+      "categories": ["Modelos", "Agentes", "Herramientas", "APIs y SDKs", "Open source", "Investigación", "Bolsa", "Startups", "Infraestructura", "Política", "Regulación", "Geopolítica", "Seguridad"]
+    }
+  ]
+}
