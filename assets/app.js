@@ -28,6 +28,7 @@
   const normalize = value => value.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
   function filter() {
     const words = normalize(search?.value.trim() || '').split(/\s+/).filter(Boolean);
+    document.querySelector('#results')?.classList.toggle('is-filtered', words.length > 0 || category !== 'Todas');
     let count = 0;
     cards.forEach(card => {
       const content = normalize(card.textContent + ' ' + card.dataset.categories);
