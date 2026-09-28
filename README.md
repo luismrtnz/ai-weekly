@@ -39,7 +39,7 @@ Todas las rutas del portal son relativas; no requieren dominio propio ni reescri
 
 ## Añadir una edición sin borrar el histórico
 
-1. Crear `data/AAAA-MM-DD.json` con el mismo esquema que la primera edición: `articles` y `watch`. Cada artículo tiene un `id` único, `section` (`actualidad`, `developer`, `negocio` o `politica`), categorías, título, resumen, `why`, etiqueta, fuente y URL.
+1. Crear `data/AAAA-MM-DD.json` con el esquema de la edición #02 (`schemaVersion: 2`): `period`, `timezone`, `researchedAt`, `briefing`, `articles`, `highlights` y `watch`. Cada artículo tiene un `id` único, sección, categorías, título, resumen, `why`, etiqueta, fuente y URL. Añadir `eventDate`, `sourceDate`, `dateContext`, `status` y `verification`; las fuentes adicionales son opcionales. Los estados son `Confirmado`, `Información de terceros` y `Rumor`. Un anuncio confirmado no convierte sus previsiones o benchmarks en resultados independientes.
 2. **Añadir** un registro a `data/editions.json`, conservando todos los existentes. Usar como `slug` el lunes de la semana; indicar número, fechas, título, resumen, `url`, `content` y categorías. `url` debe apuntar a `editions/AAAA-MM-DD.html`.
 3. Ejecutar `node scripts/build.mjs`. Actualiza `index.html` y `archive.html` y crea las páginas nuevas. Las ediciones HTML existentes se conservan sin sobrescribirse.
 4. Revisar contenido, fuentes, fechas, navegación, filtros y vista móvil. Ejecutar `node scripts/check.mjs` para comprobar rutas locales, fragmentos e índice.
@@ -52,3 +52,7 @@ Para una corrección deliberada en una edición existente, editar su JSON y ejec
 La edición #01 se cierra el 20 de septiembre y se publica el 21. Cada noticia enlaza su fuente. «Por qué importa» es interpretación editorial. Las previsiones se identifican como tales y las variaciones bursátiles indican la sesión, no un rendimiento semanal. PyTorch 2.14 y la guía de supervisión humana se incluyen como seguimiento/contexto, sin atribuirles un lanzamiento dentro de la semana.
 
 El generador es una herramienta de mantenimiento opcional escrita con módulos nativos de Node.js (18 o posterior); no añade frameworks al portal.
+
+Desde la edición #02, `scripts/editorial.mjs` define las once secciones temáticas y valida los campos y el periodo de siete días (lunes a domingo, Europe/Madrid). El generador omite secciones vacías y sus anclas. Los tres puntos de portada (`briefing`) y «Lo más importante» (`highlights`) son específicos de cada edición y referencian sus noticias mediante `articleId`. Los identificadores de sección antiguos siguen siendo compatibles y los HTML históricos no se regeneran durante una publicación normal.
+
+`node scripts/check.mjs` comprueba además el contenido editorial, las referencias de CSS y las secciones de las nuevas ediciones. Las comprobaciones en navegador y la revisión de fuentes siguen siendo necesarias. Las notas de investigación y validación se guardan en `reports/`.

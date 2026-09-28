@@ -151,6 +151,13 @@
         ? document.querySelector('.hero a.button')?.href : isEdition ? location.href : null;
       const displayedPath = displayedURL ? new URL(displayedURL).pathname : null;
       const current = editions.findIndex(edition => edition.url.pathname === displayedPath);
+      // Historical HTML stays immutable; refresh its shared latest-edition link.
+      const latestLink = [...primaryNav.querySelectorAll('a')].find(anchor => anchor.textContent.trim() === 'Última edición');
+      if (latestLink && editions.length) {
+        latestLink.href = editions[0].url.href;
+        if (isEdition && current === 0) latestLink.setAttribute('aria-current', 'page');
+        else latestLink.removeAttribute('aria-current');
+      }
       const items = editions.map((edition, index) => {
         const item = document.createElement('li');
         const anchor = link(edition.label, edition.url);

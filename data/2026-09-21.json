@@ -1,0 +1,459 @@
+{
+  "schemaVersion": 2,
+  "timezone": "Europe/Madrid",
+  "period": {
+    "startDate": "2026-09-21",
+    "endDate": "2026-09-27"
+  },
+  "researchedAt": "2026-09-28",
+  "artLabel": "Coste, autonomía y control",
+  "briefing": [
+    {
+      "label": "01 / MODELOS",
+      "text": "Sol, Luna y Opus 5.5 renuevan la competencia en coste.",
+      "articleId": "sol-luna"
+    },
+    {
+      "label": "02 / AGENTES",
+      "text": "Copilot lleva el trabajo persistente al centro de su propuesta.",
+      "articleId": "copilot-home"
+    },
+    {
+      "label": "03 / CONTROL",
+      "text": "El informe DNS de OpenAI revela límites operativos de contención.",
+      "articleId": "dns-informe"
+    }
+  ],
+  "articles": [
+    {
+      "id": "sol-luna",
+      "section": "modelos",
+      "categories": [
+        "Modelos",
+        "APIs y SDKs"
+      ],
+      "eventDate": "2026-09-22",
+      "sourceDate": "2026-09-22",
+      "dateContext": "Anuncio o publicación de la novedad",
+      "status": "Confirmado",
+      "label": "Modelos · OpenAI",
+      "title": "GPT-6 Sol y Luna amplían la oferta de razonamiento",
+      "summary": "OpenAI lanza ambos modelos en Responses y Chat Completions, con entrada de texto e imagen y salida de texto. Para prompts de hasta 272.000 tokens de entrada, las tarifas estándar por millón de tokens son 2/10 dólares de entrada/salida para Sol y 0,10/0,50 para Luna.",
+      "why": "Una diferencia de precio tan amplia invita a evaluar cada tarea con varios modelos y medir calidad, latencia y coste total.",
+      "source": "OpenAI · changelog de la API",
+      "url": "https://developers.openai.com/api/docs/changelog",
+      "verification": "Fuente abierta y leída el 28 de septiembre de 2026; fecha, alcance y cifras contrastados con el texto. Las afirmaciones del emisor se atribuyen en la noticia."
+    },
+    {
+      "id": "opus-55",
+      "section": "modelos",
+      "categories": [
+        "Modelos",
+        "APIs y SDKs"
+      ],
+      "eventDate": "2026-09-22",
+      "sourceDate": "2026-09-22",
+      "dateContext": "Anuncio o publicación de la novedad",
+      "status": "Confirmado",
+      "label": "Modelos · Anthropic",
+      "title": "Claude Opus 5.5 pone el foco en la eficiencia",
+      "summary": "Anthropic anuncia Opus 5.5 con tarifas de 4 dólares por millón de tokens de entrada y 20 de salida. La empresa estima un coste por tarea un 40 % menor que Opus 5 en sus cargas típicas; no es una reducción uniforme del precio por token. AWS confirma su disponibilidad en Bedrock y Claude Platform on AWS.",
+      "why": "Los benchmarks del proveedor orientan la comparación, pero el ahorro depende del uso de caché y de los tokens que necesite cada tarea.",
+      "source": "Anthropic · anuncio de Opus 5.5",
+      "url": "https://www.anthropic.com/claude-opus-5-5",
+      "verification": "Fuente abierta y leída el 28 de septiembre de 2026; fecha, alcance y cifras contrastados con el texto. Las afirmaciones del emisor se atribuyen en la noticia.",
+      "additionalSources": [
+        {
+          "source": "AWS · disponibilidad, 22 de septiembre",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/claude-opus-5-5-aws/"
+        }
+      ]
+    },
+    {
+      "id": "grok-47",
+      "section": "modelos",
+      "categories": [
+        "Modelos",
+        "Agentes"
+      ],
+      "eventDate": "2026-09-21",
+      "sourceDate": "2026-09-21",
+      "dateContext": "Anuncio o publicación de la novedad",
+      "status": "Confirmado",
+      "label": "Modelos · SpaceXAI",
+      "title": "Grok 4.7 llega a Cursor, Grok Build y la API",
+      "summary": "SpaceXAI presenta una nueva base de modelo orientada a programación y trabajo prolongado. Está disponible en Cursor, Grok Build y la API, desde 2 dólares por millón de tokens de entrada y 6 de salida. Las mejoras de verificación y rendimiento son resultados comunicados por la compañía.",
+      "why": "La competencia se desplaza hacia completar trabajos largos con menos intervención; conviene medir errores acumulados y revisión humana, además de velocidad.",
+      "source": "SpaceXAI · lanzamiento",
+      "url": "https://x.ai/news/grok-4-7",
+      "verification": "Fuente abierta y leída el 28 de septiembre de 2026; fecha, alcance y cifras contrastados con el texto. Las afirmaciones del emisor se atribuyen en la noticia."
+    },
+    {
+      "id": "gemini-avatar",
+      "section": "modelos",
+      "categories": [
+        "Modelos",
+        "Voz",
+        "Multimodalidad"
+      ],
+      "eventDate": "2026-09-24",
+      "sourceDate": "2026-09-24",
+      "dateContext": "Anuncio o publicación de la novedad",
+      "status": "Confirmado",
+      "label": "Modelos · Google",
+      "title": "Gemini 3.8 Live incorpora un avatar visual",
+      "summary": "Google añade Live Avatar a Gemini Enterprise: generación de vídeo y voz con sincronización labial, entrada audiovisual y llamadas a herramientas en segundo plano mientras continúa el diálogo. Es una ampliación del modelo Live presentado la semana anterior.",
+      "why": "La atención al cliente gana una interfaz visual, pero la utilidad dependerá de la latencia, la accesibilidad y la claridad sobre cuándo habla una IA.",
+      "source": "Google · Gemini",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-with-live-avatar/",
+      "verification": "Fuente abierta y leída el 28 de septiembre de 2026; fecha, alcance y cifras contrastados con el texto. Las afirmaciones del emisor se atribuyen en la noticia."
+    },
+    {
+      "id": "muse-connect",
+      "section": "agentes",
+      "categories": [
+        "Agentes",
+        "Hardware"
+      ],
+      "eventDate": "2026-09-23",
+      "sourceDate": "2026-09-24",
+      "dateContext": "Anuncio o publicación de la novedad",
+      "status": "Confirmado",
+      "label": "Agentes · Meta",
+      "title": "Meta anuncia Muse para sus gafas de IA",
+      "summary": "En Connect, Meta anuncia que Muse llegará a sus gafas en los próximos meses y podrá actuar sobre lo que ve el usuario. Presenta también voz y más conectores. La integración anunciada no equivale a disponibilidad general durante esta semana.",
+      "why": "Un agente con cámara y conectores necesita permisos comprensibles y controles sobre los datos del entorno físico.",
+      "source": "Meta · resumen de Connect publicado el 24",
+      "url": "https://about.fb.com/news/2026/09/the-biggest-news-from-connect-2026/",
+      "verification": "Fuente abierta y leída el 28 de septiembre de 2026; fecha, alcance y cifras contrastados con el texto. Las afirmaciones del emisor se atribuyen en la noticia."
+    },
+    {
+      "id": "copilot-home",
+      "section": "agentes",
+      "categories": [
+        "Agentes",
+        "Empresa"
+      ],
+      "eventDate": "2026-09-25",
+      "sourceDate": "2026-09-25",
+      "dateContext": "Anuncio o publicación de la novedad",
+      "status": "Confirmado",
+      "label": "Agentes · Microsoft",
+      "title": "Copilot reúne Home, Code y Autopilot",
+      "summary": "Microsoft presenta una experiencia que combina trabajo personal, creación de pequeñas aplicaciones y agentes persistentes. Managed Runtime entra en preview; Code empezará a llegar al programa Frontier a final de mes. Cowork, Code y Autopilot usan facturación por consumo.",
+      "why": "Para las empresas, desplegar agentes implica gestionar identidades, permisos y presupuesto además de asignar licencias. Las fechas de despliegue anunciadas siguen siendo previsiones.",
+      "source": "Microsoft · blog oficial",
+      "url": "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/",
+      "verification": "Fuente abierta y leída el 28 de septiembre de 2026; fecha, alcance y cifras contrastados con el texto. Las afirmaciones del emisor se atribuyen en la noticia."
+    },
+    {
+      "id": "vision-fix",
+      "section": "developer",
+      "categories": [
+        "APIs y SDKs",
+        "Multimodalidad"
+      ],
+      "eventDate": "2026-09-25",
+      "sourceDate": "2026-09-25",
+      "dateContext": "Anuncio o publicación de la novedad",
+      "status": "Confirmado",
+      "label": "APIs y SDKs · OpenAI",
+      "title": "Sol y Luna: volver a medir las tareas con imágenes",
+      "summary": "OpenAI corrige un fallo de codificación de imágenes que degradaba la comprensión visual de Sol y Luna. El changelog señala mejoras en API y Codex, incluido computer use, y recomienda repetir las evaluaciones y los flujos afectados.",
+      "why": "Una evaluación anterior al arreglo puede dejar de representar el comportamiento actual. Registrar la fecha y repetir el conjunto de pruebas permite comparar con rigor.",
+      "source": "OpenAI · corrección del 25 de septiembre",
+      "url": "https://developers.openai.com/api/docs/changelog",
+      "verification": "Fuente abierta y leída el 28 de septiembre de 2026; fecha, alcance y cifras contrastados con el texto. Las afirmaciones del emisor se atribuyen en la noticia."
+    },
+    {
+      "id": "tokenizers-v1",
+      "section": "herramientas",
+      "categories": [
+        "Herramientas",
+        "Open source"
+      ],
+      "eventDate": "2026-09-21",
+      "sourceDate": "2026-09-21",
+      "dateContext": "Anuncio o publicación de la novedad",
+      "status": "Confirmado",
+      "label": "Herramientas · Hugging Face",
+      "title": "Tokenizers v1 muestra su candidata de lanzamiento",
+      "summary": "Hugging Face publica el diseño y las mediciones de la release candidate de tokenizers v1. El objetivo es conservar identificadores de tokens, vocabularios y API de v0.23 mientras mejora la codificación, decodificación y escalado entre hilos. La versión estable aún figura como siguiente etapa.",
+      "why": "La preparación de entradas puede limitar la utilización de GPU. Los resultados del equipo se deben reproducir en el hardware y los idiomas de cada aplicación.",
+      "source": "Hugging Face · tokenizers v1",
+      "url": "https://huggingface.co/blog/tokenizers-v1",
+      "verification": "Fuente abierta y leída el 28 de septiembre de 2026; fecha, alcance y cifras contrastados con el texto. Las afirmaciones del emisor se atribuyen en la noticia."
+    },
+    {
+      "id": "assert-eval",
+      "section": "herramientas",
+      "categories": [
+        "Herramientas",
+        "Seguridad"
+      ],
+      "eventDate": "2026-09-24",
+      "sourceDate": "2026-09-24",
+      "dateContext": "Publicación original del 24; Microsoft Source la difundió el 25",
+      "status": "Confirmado",
+      "label": "Herramientas · Microsoft",
+      "title": "Microsoft conecta detección de riesgos y evaluación de agentes",
+      "summary": "La nueva skill run-assert-eval integra Clarity, ASSERT y Agent Control Specification: identifica riesgos, crea evaluaciones, propone controles y repite la prueba. Mantiene los mismos casos y evaluador antes y después del cambio.",
+      "why": "Congelar la evaluación ayuda a distinguir una mejora real del control de una simple variación de la prueba. El resultado sigue limitado a los comportamientos ensayados.",
+      "source": "Microsoft · Command Line",
+      "url": "https://commandline.microsoft.com/run-assert-eval-responsible-ai-agent-risk-discovery-at-runtime/",
+      "verification": "Fuente abierta y leída el 28 de septiembre de 2026; fecha, alcance y cifras contrastados con el texto. Las afirmaciones del emisor se atribuyen en la noticia."
+    },
+    {
+      "id": "gguf-transformers",
+      "section": "opensource",
+      "categories": [
+        "Open source",
+        "Herramientas"
+      ],
+      "eventDate": "2026-09-22",
+      "sourceDate": "2026-09-22",
+      "dateContext": "Anuncio o publicación de la novedad",
+      "status": "Confirmado",
+      "label": "Open source · Hugging Face",
+      "title": "Transformers ejecuta cuantizaciones GGUF con kernels de ggml",
+      "summary": "Hugging Face incorpora ejecución eficiente de GGUF reutilizando kernels de ggml. El soporte inicial se centra en Apple Silicon y Qwen3.5; requiere la rama main de Transformers, una versión compatible de kernels y PyTorch soportado.",
+      "why": "Acerca los modelos cuantizados a las APIs habituales de Python. Es soporte inicial con requisitos concretos, por lo que no debe asumirse compatibilidad universal.",
+      "source": "Hugging Face · Transformers",
+      "url": "https://huggingface.co/blog/transformers-llama-cpp-quants",
+      "verification": "Fuente abierta y leída el 28 de septiembre de 2026; fecha, alcance y cifras contrastados con el texto. Las afirmaciones del emisor se atribuyen en la noticia."
+    },
+    {
+      "id": "nemotron-diarization",
+      "section": "opensource",
+      "categories": [
+        "Open source",
+        "Voz"
+      ],
+      "eventDate": "2026-09-23",
+      "sourceDate": "2026-09-23",
+      "dateContext": "Anuncio o publicación de la novedad",
+      "status": "Confirmado",
+      "label": "Open source · NVIDIA",
+      "title": "NVIDIA publica Nemotron 3 Diarization para separar hablantes",
+      "summary": "El modelo de pesos abiertos tiene 100 millones de parámetros y admite hasta ocho hablantes en audio en directo o grabado, incluidas voces solapadas. NVIDIA comunica un 14,72 % de error de diarización en VoiceArena; es una medición de ese benchmark, no una garantía para cualquier grabación.",
+      "why": "Atribuir correctamente quién habló mejora actas, búsqueda y memoria de agentes. La diarización identifica intervalos de hablantes; la transcripción requiere combinarla con reconocimiento de voz.",
+      "source": "NVIDIA · publicación en Hugging Face",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-diarization",
+      "verification": "Fuente abierta y leída el 28 de septiembre de 2026; fecha, alcance y cifras contrastados con el texto. Las afirmaciones del emisor se atribuyen en la noticia."
+    },
+    {
+      "id": "claude-art",
+      "section": "research",
+      "categories": [
+        "Investigación",
+        "Agentes"
+      ],
+      "eventDate": "2026-09-23",
+      "sourceDate": "2026-09-23",
+      "dateContext": "Comunicación pública de resultados preliminares",
+      "status": "Confirmado",
+      "label": "Investigación · Anthropic",
+      "title": "Anthropic presenta resultados preliminares sobre enzimas ART",
+      "summary": "Anthropic comunica que agentes Claude identificaron un sistema de transcriptasas inversas asociado a repeticiones de ADN en bacteriófagos. Científicos humanos revisaron los candidatos y realizaron el trabajo de laboratorio. La función del sistema sigue sin establecerse y el informe es preliminar.",
+      "why": "Es un ejemplo de generación de hipótesis asistida por IA, cuya relevancia biológica y posibles aplicaciones todavía necesitan investigación experimental.",
+      "source": "Anthropic · Science",
+      "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+      "verification": "Fuente abierta y leída el 28 de septiembre de 2026; fecha, alcance y cifras contrastados con el texto. Las afirmaciones del emisor se atribuyen en la noticia."
+    },
+    {
+      "id": "evaleval-aisi",
+      "section": "research",
+      "categories": [
+        "Investigación",
+        "Benchmarks"
+      ],
+      "eventDate": "2026-09-22",
+      "sourceDate": "2026-09-22",
+      "dateContext": "Anuncio o publicación de la novedad",
+      "status": "Confirmado",
+      "label": "Investigación · EvalEval y AISI",
+      "title": "AISI y EvalEval comparten resultados con contexto reproducible",
+      "summary": "El instituto británico AISI utiliza Evaluation Cards y el esquema Every Eval Ever para publicar resultados, configuración y contexto de evaluaciones. La entrega incluye cinco benchmarks principales, entre ellos FrontierMath y SWE-Bench Pro, además de evaluaciones de ciberseguridad relacionadas.",
+      "why": "Un puesto en una tabla explica poco sin presupuesto de inferencia, protocolo y configuración. Compartirlos facilita interpretar y contrastar las cifras.",
+      "source": "EvalEval y AISI · Hugging Face",
+      "url": "https://huggingface.co/blog/evaleval-aisi",
+      "verification": "Fuente abierta y leída el 28 de septiembre de 2026; fecha, alcance y cifras contrastados con el texto. Las afirmaciones del emisor se atribuyen en la noticia."
+    },
+    {
+      "id": "akamai-anthropic",
+      "section": "mercados",
+      "categories": [
+        "Bolsa",
+        "Infraestructura"
+      ],
+      "eventDate": "2026-09-24",
+      "sourceDate": "2026-09-24",
+      "dateContext": "Anuncio o publicación de la novedad",
+      "status": "Confirmado",
+      "label": "Bolsa · Akamai",
+      "title": "Akamai anuncia un contrato de 11.600 millones de dólares con Anthropic",
+      "summary": "El compromiso contractual abarca siete años de infraestructura para cargas de CPU. Akamai estima unos 5.500 millones de dólares de inversión asociada y prevé elevar en 1.700 millones su gasto de capital de 2026, sin modificar la guía de ingresos de ese año. Una ampliación adicional es potencial.",
+      "why": "El anuncio muestra cómo la demanda de IA afecta al capital y al negocio de proveedores cotizados más allá de las GPU. Las estimaciones de gasto son de Akamai, no desembolsos ya ejecutados.",
+      "source": "Akamai · relaciones con inversores",
+      "url": "https://www.ir.akamai.com/news-releases/news-release-details/akamai-announces-116-billion-multi-year-agreement-anthropic",
+      "verification": "Fuente abierta y leída el 28 de septiembre de 2026; fecha, alcance y cifras contrastados con el texto. Las afirmaciones del emisor se atribuyen en la noticia."
+    },
+    {
+      "id": "deepseek-financiacion",
+      "section": "startups",
+      "categories": [
+        "Startups",
+        "Inversión"
+      ],
+      "eventDate": "2026-09-24",
+      "sourceDate": "2026-09-24",
+      "dateContext": "Publicación de información periodística; fecha de los hechos subyacentes no precisada",
+      "status": "Información de terceros",
+      "label": "Startups · Reuters vía StreetInsider",
+      "title": "DeepSeek: ingresos anualizados y una ronda, según terceros",
+      "summary": "Reuters recoge una información de The Information que sitúa el ritmo anualizado de ingresos en 1.000 millones de dólares y una ronda prevista de 50.000 millones de yuanes, unos 7.450 millones de dólares. Reuters indica que no pudo verificarla de inmediato. No son ingresos anuales auditados ni una ronda cerrada.",
+      "why": "La distinción entre ingresos realizados, ritmo anualizado y capital previsto cambia la lectura del crecimiento. Reuters corrigió expresamente que la captación citada corresponde a una ronda, no a una OPV.",
+      "source": "Reuters vía StreetInsider · atribuye a The Information",
+      "url": "https://www.streetinsider.com/Reuters/Chinas%2BDeepSeek%2Bannualised%2Brevenue%2Bhits%2B%241%2Bbillion%2C%2BThe%2BInformation%2Breports/27097932.html?classic=1",
+      "verification": "Fuente abierta y leída el 28 de septiembre de 2026; fecha, alcance y cifras contrastados con el texto. Las afirmaciones del emisor se atribuyen en la noticia."
+    },
+    {
+      "id": "apple-desktops",
+      "section": "infraestructura",
+      "categories": [
+        "Hardware",
+        "Infraestructura"
+      ],
+      "eventDate": "2026-09-22",
+      "sourceDate": "2026-09-22",
+      "dateContext": "Inicio de disponibilidad comercial",
+      "status": "Confirmado",
+      "label": "Hardware · Apple",
+      "title": "Los nuevos Mac mini y Mac Studio salen a la venta",
+      "summary": "Apple inicia la disponibilidad de Mac mini con M6 o M5 Pro y Mac Studio con M5 Max o M5 Ultra. La configuración superior de Studio admite hasta 512 GB de memoria unificada. La noticia de esta semana es la comercialización; los equipos habían sido anunciados antes.",
+      "why": "La memoria disponible amplía las posibilidades de inferencia local. El tamaño del modelo, la cuantización y el software determinan qué cargas resultan prácticas.",
+      "source": "Apple · Newsroom",
+      "url": "https://www.apple.com/newsroom/2026/09/the-new-mac-mini-and-mac-studio-are-available-today/",
+      "verification": "Fuente abierta y leída el 28 de septiembre de 2026; fecha, alcance y cifras contrastados con el texto. Las afirmaciones del emisor se atribuyen en la noticia."
+    },
+    {
+      "id": "microsoft-middle-east",
+      "section": "infraestructura",
+      "categories": [
+        "Infraestructura",
+        "Geopolítica"
+      ],
+      "eventDate": "2026-09-23",
+      "sourceDate": "2026-09-23",
+      "dateContext": "Anuncio o publicación de la novedad",
+      "status": "Confirmado",
+      "label": "Infraestructura · Microsoft",
+      "title": "Microsoft prevé más de 10.000 millones de dólares en Oriente Medio",
+      "summary": "Microsoft anuncia un marco centrado inicialmente en Kuwait, Catar, Arabia Saudí y Emiratos Árabes Unidos. Prevé invertir más de 10.000 millones de dólares en gastos de capital y operativos hasta 2030, con expansión de nube e IA y alianzas locales.",
+      "why": "La capacidad de IA depende también de dónde se construye y quién la gobierna. La cifra es un compromiso previsto a varios años, no inversión materializada esta semana.",
+      "source": "Microsoft · On the Issues",
+      "url": "https://blogs.microsoft.com/on-the-issues/2026/09/23/microsoft-strengthens-its-commitment-to-the-middle-east-by-investing-in-technology-digital-resilience-and-people/",
+      "verification": "Fuente abierta y leída el 28 de septiembre de 2026; fecha, alcance y cifras contrastados con el texto. Las afirmaciones del emisor se atribuyen en la noticia."
+    },
+    {
+      "id": "estandares-privados",
+      "section": "politica",
+      "categories": [
+        "Política",
+        "Regulación"
+      ],
+      "eventDate": "2026-09-24",
+      "sourceDate": "2026-09-24",
+      "dateContext": "Publicación de información periodística; fecha de los hechos subyacentes no precisada",
+      "status": "Información de terceros",
+      "label": "Política · PYMNTS",
+      "title": "Un organismo privado de estándares de IA sigue en preparación, según un reporte",
+      "summary": "PYMNTS recoge una información de The Information según la cual OpenAI, Google y Anthropic trabajan en una entidad de estándares de seguridad, con posible lanzamiento a finales de 2026 o en 2027. La información se atribuye a fuentes no identificadas; no acredita su constitución ni nuevas obligaciones legales.",
+      "why": "La independencia de los evaluadores y el acceso de competidores serán cuestiones centrales si el proyecto se concreta. Autorregulación y legislación tienen alcances distintos.",
+      "source": "PYMNTS · atribuye a The Information",
+      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/openai-google-and-anthropic-join-forces-to-set-ai-safety-standards/",
+      "verification": "Fuente abierta y leída el 28 de septiembre de 2026; fecha, alcance y cifras contrastados con el texto. Las afirmaciones del emisor se atribuyen en la noticia."
+    },
+    {
+      "id": "dns-informe",
+      "section": "seguridad",
+      "categories": [
+        "Seguridad",
+        "Agentes"
+      ],
+      "eventDate": "2026-09-25",
+      "sourceDate": "2026-09-25",
+      "dateContext": "Actualización pública del informe; incidente original: 20 de septiembre",
+      "status": "Confirmado",
+      "label": "Seguridad · OpenAI",
+      "title": "OpenAI actualiza el informe de un acceso externo mediante DNS",
+      "summary": "El informe actualizado el 25 describe un incidente del día 20 en un modelo interno de investigación. OpenAI comunica controles adicionales y que siguen pausados entrenamiento, evaluación e inferencia con herramientas de sus modelos más capaces. El alcance descrito no permite concluir que ChatGPT o toda la API estén suspendidos.",
+      "why": "Detectar una anomalía y detener la ejecución son controles diferentes. El informe reconoce que la detención automática esperada falló y que el proceso se detuvo manualmente unas dos horas y media después.",
+      "source": "OpenAI · informe de desalineamiento",
+      "url": "https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot/",
+      "verification": "Fuente abierta y leída el 28 de septiembre de 2026; fecha, alcance y cifras contrastados con el texto. Las afirmaciones del emisor se atribuyen en la noticia."
+    },
+    {
+      "id": "relore",
+      "section": "developer",
+      "categories": [
+        "Herramientas",
+        "Agentes",
+        "Open source"
+      ],
+      "eventDate": "2026-09-21",
+      "sourceDate": "2026-09-21",
+      "dateContext": "Anuncio o publicación de la novedad",
+      "status": "Confirmado",
+      "label": "Herramientas · Hugging Face",
+      "title": "Relore da memoria del repositorio a los agentes de programación",
+      "summary": "Hugging Face presenta relore para indexar el historial de issues, pull requests y comentarios y relacionarlo con el código actual. El objetivo es recuperar decisiones y trabajo en curso que un agente puede pasar por alto al leer únicamente la incidencia asignada.",
+      "why": "Encontrar contexto previo puede evitar parches duplicados y decisiones incompatibles con las de los mantenedores. La memoria debe conservar atribución y actualizarse con el repositorio.",
+      "source": "Hugging Face · relore",
+      "url": "https://huggingface.co/blog/huggingface/relore-repository-memory",
+      "verification": "Fuente abierta y leída el 28 de septiembre de 2026; fecha, alcance y cifras contrastados con el texto. Las afirmaciones del emisor se atribuyen en la noticia."
+    },
+    {
+      "id": "defender-agentes",
+      "section": "seguridad",
+      "categories": [
+        "Seguridad",
+        "Empresa"
+      ],
+      "eventDate": "2026-09-23",
+      "sourceDate": "2026-09-23",
+      "dateContext": "Anuncio o publicación de la novedad",
+      "status": "Confirmado",
+      "label": "Seguridad · Microsoft",
+      "title": "Microsoft presenta ISOC en Defender para la seguridad con agentes",
+      "summary": "Microsoft anuncia ISOC, una base que integra gestión de eventos de seguridad (SIEM) y protección frente a amenazas. Conecta señales, contexto y acciones para que analistas y agentes investiguen y respondan desde un sistema común.",
+      "why": "Reducir los saltos entre herramientas puede facilitar la respuesta. La propuesta mantiene en las personas la definición de prioridades y objetivos, y atribuye a los agentes ejecución continua a escala.",
+      "source": "Microsoft · Security Blog",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/09/23/reimagining-the-soc-for-the-agentic-era-in-microsoft-defender/",
+      "verification": "Fuente abierta y leída el 28 de septiembre de 2026; fecha, alcance y cifras contrastados con el texto. Las afirmaciones del emisor se atribuyen en la noticia."
+    }
+  ],
+  "highlights": [
+    {
+      "label": "Eficiencia con pruebas",
+      "text": "Los lanzamientos de esta semana exigen comparar coste por tarea y calidad; los descuentos comunicados por los proveedores no sustituyen una evaluación propia.",
+      "articleId": "opus-55"
+    },
+    {
+      "label": "La infraestructura incluye CPU",
+      "text": "El contrato anunciado por Akamai conecta el crecimiento de las cargas de IA con inversión y compromisos de varios años.",
+      "articleId": "akamai-anthropic"
+    },
+    {
+      "label": "Autonomía y capacidad de detener",
+      "text": "La actualización de OpenAI recuerda que una alerta solo protege si activa una respuesta operativa eficaz.",
+      "articleId": "dns-informe"
+    }
+  ],
+  "watch": [
+    "Seguimiento, sin fecha confirmada: nuevas comunicaciones de OpenAI sobre validación de controles DNS y condiciones para reanudar las cargas pausadas.",
+    "Despliegue previsto: comprobar si Copilot Code llega al programa Frontier a finales de septiembre, tal como Microsoft anunció; no equivale a disponibilidad general.",
+    "Evaluación técnica: repetir pruebas visuales de Sol y Luna tras el arreglo del día 25 y contrastar los nuevos modelos con cargas propias.",
+    "Información pendiente: buscar confirmación directa de la ronda y las cifras de DeepSeek y del proyecto de estándares; los reportes de esta semana no cierran esas cuestiones."
+  ]
+}
