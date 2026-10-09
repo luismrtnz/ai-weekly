@@ -1,0 +1,697 @@
+{
+  "schemaVersion": 2,
+  "timezone": "Europe/Madrid",
+  "period": {
+    "startDate": "2026-09-28",
+    "endDate": "2026-10-04"
+  },
+  "researchedAt": "2026-10-09",
+  "artLabel": "Capacidad y responsabilidad",
+  "briefing": [
+    {
+      "label": "01 / MODELOS",
+      "text": "Sol 6.1 y Sonnet 5.5 compiten en eficiencia; Argon llega con acceso limitado.",
+      "articleId": "gemini-argon"
+    },
+    {
+      "label": "02 / AGENTES",
+      "text": "Los asistentes ganan continuidad y control del escritorio.",
+      "articleId": "copilot-desktop"
+    },
+    {
+      "label": "03 / SUPERVISIÓN",
+      "text": "Un acuerdo voluntario y una investigación de la FTC marcan la agenda.",
+      "articleId": "ftc-investigacion"
+    }
+  ],
+  "articles": [
+    {
+      "id": "sol-61",
+      "section": "modelos",
+      "categories": [
+        "Modelos",
+        "APIs y SDKs"
+      ],
+      "eventDate": "2026-09-29",
+      "sourceDate": "2026-09-29",
+      "dateContext": "Anuncio o publicación de la novedad dentro del periodo.",
+      "status": "Confirmado",
+      "label": "Modelos · OpenAI",
+      "title": "GPT-6.1 Sol renueva el modelo de trabajo de OpenAI",
+      "summary": "OpenAI publica GPT-6.1 Sol en Responses y Chat Completions para programación compleja y trabajo profesional. La tarifa estándar por millón de tokens, con hasta 272.000 tokens de entrada por prompt, es de 2 dólares de entrada y 10 de salida; la entrada en caché cuesta 0,10 dólares. La API Responses incorpora delegación a subagentes en beta.",
+      "why": "El precio por token permite presupuestar, pero la elección exige medir cuántos intentos y revisiones necesita cada tarea.",
+      "source": "OpenAI · changelog de la API",
+      "url": "https://developers.openai.com/api/docs/changelog",
+      "verification": "Fuente abierta y texto pertinente leído el 9 de octubre de 2026. Se contrastaron fecha, alcance y cifras; las evaluaciones y previsiones se atribuyen a su emisor."
+    },
+    {
+      "id": "sonnet-55",
+      "section": "modelos",
+      "categories": [
+        "Modelos",
+        "Benchmarks"
+      ],
+      "eventDate": "2026-09-28",
+      "sourceDate": "2026-09-28",
+      "dateContext": "Anuncio o publicación de la novedad dentro del periodo.",
+      "status": "Confirmado",
+      "label": "Modelos · Anthropic",
+      "title": "Sonnet 5.5 mejora velocidad y coste por tarea",
+      "summary": "Anthropic presenta Sonnet 5.5 y mantiene los precios de Sonnet 5: 2 dólares por millón de tokens de entrada y 10 de salida. La empresa comunica más de un 30 % de mejora en velocidad de generación y hasta un 30 % menos de coste por tarea en sus pruebas. Son resultados del proveedor, no un descuento uniforme de la tarifa.",
+      "why": "Una tarea más barata puede necesitar menos tokens, aunque el precio unitario siga igual. Conviene comparar calidad y coste de trabajos terminados.",
+      "source": "Anthropic · anuncio de Sonnet 5.5",
+      "url": "https://www.anthropic.com/claude-sonnet-5-5",
+      "verification": "Fuente abierta y texto pertinente leído el 9 de octubre de 2026. Se contrastaron fecha, alcance y cifras; las evaluaciones y previsiones se atribuyen a su emisor."
+    },
+    {
+      "id": "gemini-argon",
+      "section": "modelos",
+      "categories": [
+        "Modelos",
+        "Multimodalidad",
+        "Seguridad"
+      ],
+      "eventDate": "2026-09-30",
+      "sourceDate": "2026-09-30",
+      "dateContext": "Anuncio o publicación de la novedad dentro del periodo.",
+      "status": "Confirmado",
+      "label": "Modelos · Google DeepMind",
+      "title": "Gemini 4 Argon se estrena con acceso restringido",
+      "summary": "Google anuncia Gemini 4 Argon y comienza a distribuirlo a defensores de ciberseguridad de confianza mediante Fairwind. Amplía el límite de salida a un millón de tokens y anuncia un precio introductorio futuro de 2 dólares de entrada y 10 de salida por millón. Al cierre, el anuncio no equivale a disponibilidad general para desarrolladores y consumidores.",
+      "why": "Las capacidades y los benchmarks anunciados por Google deben evaluarse junto a las condiciones de acceso. Un millón de tokens de salida tampoco es una medida de fiabilidad.",
+      "source": "Google · anuncio de Gemini 4 Argon",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+      "verification": "Fuente abierta y texto pertinente leído el 9 de octubre de 2026. Se contrastaron fecha, alcance y cifras; las evaluaciones y previsiones se atribuyen a su emisor."
+    },
+    {
+      "id": "meta-enterprise",
+      "section": "modelos",
+      "categories": [
+        "Empresa",
+        "Agentes"
+      ],
+      "eventDate": "2026-09-28",
+      "sourceDate": "2026-09-28",
+      "dateContext": "Anuncio o publicación de la novedad dentro del periodo.",
+      "status": "Confirmado",
+      "label": "Empresa · Meta",
+      "title": "Meta crea una plataforma empresarial alrededor de sus agentes",
+      "summary": "Meta anuncia Enterprise Platform, una nueva iniciativa para convertir su tecnología en productos y servicios para empresas. Su foco inicial incluye Muse, Meta Business Agent, Muse API y Muse Code. Chirantan «CJ» Desai se incorpora desde MongoDB para dirigirla. El comunicado presenta la estrategia, sin establecer una disponibilidad uniforme de toda la oferta.",
+      "why": "La distribución empresarial añade otra vía de competencia por los procesos internos de las compañías, más allá del asistente de consumo.",
+      "source": "Meta · comunicado de Mark Zuckerberg",
+      "url": "https://about.fb.com/news/2026/09/launching-meta-enterprise-platform/",
+      "verification": "Fuente abierta y texto pertinente leído el 9 de octubre de 2026. Se contrastaron fecha, alcance y cifras; las evaluaciones y previsiones se atribuyen a su emisor."
+    },
+    {
+      "id": "dots-devday",
+      "section": "agentes",
+      "categories": [
+        "Agentes",
+        "Empresa"
+      ],
+      "eventDate": "2026-09-29",
+      "sourceDate": "2026-09-29",
+      "dateContext": "Anuncio o publicación de la novedad dentro del periodo.",
+      "status": "Confirmado",
+      "label": "Agentes · OpenAI",
+      "title": "Dots lleva el asistente a responsabilidades continuas",
+      "summary": "OpenAI presenta Dots en DevDay como agentes persistentes que pueden asumir trabajo continuo y conocer el contexto del usuario. El acceso depende del plan y del mercado; no debe interpretarse el anuncio como un despliegue universal. La propuesta sitúa el seguimiento de tareas entre conversaciones en el centro del producto.",
+      "why": "Delegar responsabilidades continuas exige poder revisar qué hizo el agente, con qué permisos y qué información conservó.",
+      "source": "OpenAI · resumen de DevDay 2026",
+      "url": "https://openai.com/index/devday-2026-recap/",
+      "verification": "Fuente abierta y texto pertinente leído el 9 de octubre de 2026. Se contrastaron fecha, alcance y cifras; las evaluaciones y previsiones se atribuyen a su emisor."
+    },
+    {
+      "id": "grok-team-bots",
+      "section": "agentes",
+      "categories": [
+        "Agentes",
+        "Empresa"
+      ],
+      "eventDate": "2026-09-28",
+      "sourceDate": "2026-09-28",
+      "dateContext": "Anuncio o publicación de la novedad dentro del periodo.",
+      "status": "Confirmado",
+      "label": "Agentes · SpaceXAI",
+      "title": "Team Bots comparte herramientas y conocimiento de equipo",
+      "summary": "SpaceXAI lanza Team Bots: Grok Bots configurados con archivos, instrucciones, plugins y memoria para un flujo de trabajo compartido. Pueden participar en Slack con su propia identidad. Según la compañía, las conversaciones individuales mantienen contexto y memoria separados, aunque el equipo comparta habilidades.",
+      "why": "El valor depende de combinar conocimiento común con límites claros de acceso y de memoria entre personas.",
+      "source": "SpaceXAI · Team Bots",
+      "url": "https://x.ai/news/team-bots",
+      "verification": "Fuente abierta y texto pertinente leído el 9 de octubre de 2026. Se contrastaron fecha, alcance y cifras; las evaluaciones y previsiones se atribuyen a su emisor."
+    },
+    {
+      "id": "copilot-desktop",
+      "section": "agentes",
+      "categories": [
+        "Agentes",
+        "Computer use"
+      ],
+      "eventDate": "2026-10-01",
+      "sourceDate": "2026-10-01",
+      "dateContext": "Anuncio o publicación de la novedad dentro del periodo.",
+      "status": "Confirmado",
+      "label": "Agentes · GitHub",
+      "title": "Copilot abre la automatización de aplicaciones de escritorio",
+      "summary": "GitHub pone computer use en vista previa pública en Copilot CLI y la aplicación Copilot para Windows y macOS. El agente puede leer contenido accesible, hacer clic, escribir y navegar entre aplicaciones. Solicita autorización para controlar cada aplicación y la organización puede deshabilitar la función.",
+      "why": "Amplía la automatización a programas sin API. Los permisos por aplicación y la supervisión del resultado pasan a formar parte del flujo de trabajo.",
+      "source": "GitHub · changelog",
+      "url": "https://github.blog/changelog/2026-10-01-github-copilot-can-now-interact-with-desktop-apps/",
+      "verification": "Fuente abierta y texto pertinente leído el 9 de octubre de 2026. Se contrastaron fecha, alcance y cifras; las evaluaciones y previsiones se atribuyen a su emisor."
+    },
+    {
+      "id": "aws-architect",
+      "section": "agentes",
+      "categories": [
+        "Agentes",
+        "Infraestructura"
+      ],
+      "eventDate": "2026-10-01",
+      "sourceDate": "2026-10-01",
+      "dateContext": "Anuncio o publicación de la novedad dentro del periodo.",
+      "status": "Confirmado",
+      "label": "Agentes · AWS",
+      "title": "Well-Architected Agent entra en vista previa pública",
+      "summary": "AWS presenta un agente que analiza configuraciones, utilización y topología para recomendar mejoras de coste, seguridad, rendimiento y resiliencia. Entrega pasos de implementación, comandos o cambios de infraestructura como código. La vista previa se ofrece desde tres regiones de Estados Unidos a clientes con plan AWS Support; puede incorporar cargas de otras regiones comerciales.",
+      "why": "La revisión arquitectónica gana contexto, pero las recomendaciones y sus compensaciones necesitan validación antes de aplicarlas.",
+      "source": "AWS · anuncio de Well-Architected Agent",
+      "url": "https://aws.amazon.com/blogs/aws/announcing-aws-well-architected-agent-an-ai-powered-intelligence-to-optimize-your-cloud-environment-preview/",
+      "verification": "Fuente abierta y texto pertinente leído el 9 de octubre de 2026. Se contrastaron fecha, alcance y cifras; las evaluaciones y previsiones se atribuyen a su emisor."
+    },
+    {
+      "id": "agents-browser",
+      "section": "developer",
+      "categories": [
+        "APIs y SDKs",
+        "Computer use"
+      ],
+      "eventDate": "2026-09-29",
+      "sourceDate": "2026-09-29",
+      "dateContext": "Anuncio o publicación de la novedad dentro del periodo.",
+      "status": "Confirmado",
+      "label": "Developer · OpenAI",
+      "title": "La Agents API añade navegación operada por el agente",
+      "summary": "El changelog de OpenAI registra computer use en la Agents API el 29 de septiembre. Permite realizar tareas en un navegador alojado por OpenAI, mientras la aplicación gestiona el inicio de sesión y las aprobaciones de acceso a sitios. Es una ampliación de la API existente, cuya beta pública comenzó el 10 de septiembre.",
+      "why": "La integración necesita diseñar explícitamente la autenticación y los permisos; disponer de un navegador no autoriza cualquier acción.",
+      "source": "OpenAI · changelog de la API",
+      "url": "https://developers.openai.com/api/docs/changelog",
+      "verification": "Fuente abierta y texto pertinente leído el 9 de octubre de 2026. Se contrastaron fecha, alcance y cifras; las evaluaciones y previsiones se atribuyen a su emisor."
+    },
+    {
+      "id": "mistral-retiradas",
+      "section": "developer",
+      "categories": [
+        "APIs y SDKs",
+        "Herramientas"
+      ],
+      "eventDate": "2026-09-30",
+      "sourceDate": "2026-09-29",
+      "dateContext": "Retiradas efectivas el 30 de septiembre, anunciadas el 29. GLM 5.2 tiene una fecha futura distinta.",
+      "status": "Confirmado",
+      "label": "Developer · Mistral",
+      "title": "Mistral retira OCR 4.0 y Leanstral 1.5",
+      "summary": "Las notas de Mistral del 29 fijan el fin de OCR 4.0 y del modelo experimental Leanstral 1.5 para el 30 de septiembre. Para OCR, indican migrar a OCR 4.1 al mismo precio. También anuncian la retirada de GLM 5.2 para el 31 de octubre, con GLM 5.3 como sustituto.",
+      "why": "Los identificadores fijados en producción requieren inventario y pruebas de migración; la sustitución de un modelo puede cambiar el comportamiento aunque conserve el precio.",
+      "source": "Mistral · changelog",
+      "url": "https://docs.mistral.ai/resources/changelogs",
+      "verification": "Fuente abierta y texto pertinente leído el 9 de octubre de 2026. Se contrastaron fecha, alcance y cifras; las evaluaciones y previsiones se atribuyen a su emisor."
+    },
+    {
+      "id": "s3-prefiltro",
+      "section": "herramientas",
+      "categories": [
+        "Herramientas",
+        "RAG"
+      ],
+      "eventDate": "2026-09-30",
+      "sourceDate": "2026-09-30",
+      "dateContext": "Anuncio o publicación de la novedad dentro del periodo.",
+      "status": "Confirmado",
+      "label": "Herramientas · AWS",
+      "title": "S3 Vectors filtra metadatos antes de buscar similitud",
+      "summary": "Amazon S3 Vectors incorpora prefiltrado de metadatos para búsquedas vectoriales por cliente, categoría o periodo. AWS indica que no requiere reingestar datos, cambiar consultas ni pagar un suplemento. Añade coincidencias por prefijo y admite hasta 100 restricciones por consulta.",
+      "why": "En un sistema RAG, recuperar primero dentro del conjunto pertinente ayuda a evitar que un filtro posterior descarte los mejores candidatos y deje pocos resultados útiles.",
+      "source": "AWS · S3 Vectors",
+      "url": "https://aws.amazon.com/blogs/aws/amazon-s3-vectors-now-supports-metadata-pre-filtering-for-higher-recall-on-filtered-searches/",
+      "verification": "Fuente abierta y texto pertinente leído el 9 de octubre de 2026. Se contrastaron fecha, alcance y cifras; las evaluaciones y previsiones se atribuyen a su emisor."
+    },
+    {
+      "id": "copilot-workflows",
+      "section": "herramientas",
+      "categories": [
+        "Herramientas",
+        "APIs y SDKs",
+        "Agentes"
+      ],
+      "eventDate": "2026-10-01",
+      "sourceDate": "2026-10-01",
+      "dateContext": "Anuncio o publicación de la novedad dentro del periodo.",
+      "status": "Confirmado",
+      "label": "Frameworks · GitHub",
+      "title": "Copilot incorpora flujos dinámicos definidos en código",
+      "summary": "GitHub anuncia dynamic workflows en Copilot CLI, su aplicación y el SDK. Los programas de orquestación viven en extensiones y combinan pasos automáticos con uno o varios agentes, ejecutados en secuencia o en paralelo. El código define cuándo invocarlos y cómo utilizar sus resultados.",
+      "why": "Expresar la secuencia en código facilita repetir y observar procesos complejos, manteniendo la evaluación del resultado de cada agente como responsabilidad del sistema.",
+      "source": "GitHub · dynamic workflows",
+      "url": "https://github.blog/changelog/2026-10-01-dynamic-workflows-in-copilot-cli-and-the-copilot-app/",
+      "verification": "Fuente abierta y texto pertinente leído el 9 de octubre de 2026. Se contrastaron fecha, alcance y cifras; las evaluaciones y previsiones se atribuyen a su emisor."
+    },
+    {
+      "id": "llamacpp-decision",
+      "section": "opensource",
+      "categories": [
+        "Open source",
+        "Herramientas"
+      ],
+      "eventDate": "2026-10-02",
+      "sourceDate": "2026-10-02",
+      "dateContext": "Anuncio o publicación de la novedad dentro del periodo.",
+      "status": "Confirmado",
+      "label": "Open Source · ggml-org",
+      "title": "llama.cpp añade modelos que eligen entre opciones",
+      "summary": "El servidor de llama.cpp incorpora /v1/systemone para modelos de decisión. Recibe un estado y preguntas tipadas, y devuelve probabilidades sobre opciones definidas por la aplicación en una pasada. El anuncio incluye varios modelos con licencias diferentes: no todos permiten el mismo uso comercial.",
+      "why": "Las decisiones acotadas pueden simplificar clasificación y encaminamiento. Sus probabilidades necesitan calibración y una salida segura cuando ninguna opción resulta adecuada.",
+      "source": "ggml-org · publicación en Hugging Face",
+      "url": "https://huggingface.co/blog/ggml-org/decision-models-in-llamacpp",
+      "verification": "Fuente abierta y texto pertinente leído el 9 de octubre de 2026. Se contrastaron fecha, alcance y cifras; las evaluaciones y previsiones se atribuyen a su emisor."
+    },
+    {
+      "id": "astabrief",
+      "section": "opensource",
+      "categories": [
+        "Open source",
+        "Investigación",
+        "RAG"
+      ],
+      "eventDate": "2026-10-02",
+      "sourceDate": "2026-10-02",
+      "dateContext": "Anuncio o publicación de la novedad dentro del periodo.",
+      "status": "Confirmado",
+      "label": "Open Source · Ai2",
+      "title": "Ai2 libera AstaBrief 8B y sus datos de entrenamiento",
+      "summary": "Ai2 publica AstaBrief 8B, un modelo que convierte preguntas y fragmentos de literatura recuperada en informes con citas. También libera datos de entrenamiento y lo integra como modo rápido de Asta. Ai2 mide 51,1 segundos por informe en ese flujo completo, frente a 178,5 en Thinking: aproximadamente 3,5 veces más rápido en su evaluación.",
+      "why": "La especialización ofrece una vía para acelerar síntesis documentales; las citas siguen necesitando comprobarse contra lo que las fuentes realmente afirman.",
+      "source": "Ai2 · anuncio en Hugging Face",
+      "url": "https://huggingface.co/blog/allenai/astabrief",
+      "verification": "Fuente abierta y texto pertinente leído el 9 de octubre de 2026. Se contrastaron fecha, alcance y cifras; las evaluaciones y previsiones se atribuyen a su emisor."
+    },
+    {
+      "id": "holo4",
+      "section": "opensource",
+      "categories": [
+        "Open source",
+        "Modelos",
+        "Computer use"
+      ],
+      "eventDate": "2026-09-28",
+      "sourceDate": "2026-09-28",
+      "dateContext": "Anuncio o publicación de la novedad dentro del periodo.",
+      "status": "Confirmado",
+      "label": "Modelos abiertos · H Company",
+      "title": "Holo4 combina interfaces gráficas, código y herramientas",
+      "summary": "H Company presenta Holo4 en versiones densa de 27.000 millones de parámetros y MoE de 35.000 millones con 3.000 millones activos. El anuncio ofrece modelos descargables, colecciones FP16, FP8 y GGUF, trayectorias y acceso mediante H Models API. Están orientados a operar software mediante GUI, código, MCP y API.",
+      "why": "Disponer de modelos y trayectorias facilita estudiar automatización fuera de un servicio cerrado. El rendimiento comunicado por el fabricante requiere pruebas en aplicaciones reales.",
+      "source": "H Company · anuncio de Holo4",
+      "url": "https://huggingface.co/blog/Hcompany/holo4",
+      "verification": "Fuente abierta y texto pertinente leído el 9 de octubre de 2026. Se contrastaron fecha, alcance y cifras; las evaluaciones y previsiones se atribuyen a su emisor."
+    },
+    {
+      "id": "thinkingbox",
+      "section": "research",
+      "categories": [
+        "Investigación",
+        "Benchmarks",
+        "Agentes"
+      ],
+      "eventDate": "2026-10-03",
+      "sourceDate": "2026-10-03",
+      "dateContext": "Publicación e integración anunciadas el 3; paper original del 20 de agosto, revisión v4 del 1 de octubre.",
+      "status": "Confirmado",
+      "label": "Research · Microsoft y Hugging Face",
+      "title": "ThinkingBox evalúa lo que el agente deja en la base de datos",
+      "summary": "Microsoft y Hugging Face anuncian la disponibilidad de ThinkingBox a través de OpenEnv y explican una evaluación de 507 flujos empresariales, repetidos 20 veces. La comprobación se centra en el estado final y los efectos secundarios. El paper nació en agosto y se revisó el 1 de octubre; esta noticia corresponde a su nueva integración y publicación técnica.",
+      "why": "Una respuesta convincente o una llamada válida no demuestran que el trabajo esté terminado. Repetir pruebas y verificar cambios persistentes revela fallos que una demostración aislada oculta.",
+      "source": "Microsoft · publicación en Hugging Face",
+      "url": "https://huggingface.co/blog/microsoft/thinkingbox",
+      "verification": "Fuente abierta y texto pertinente leído el 9 de octubre de 2026. Se contrastaron fecha, alcance y cifras; las evaluaciones y previsiones se atribuyen a su emisor.",
+      "additionalSources": [
+        {
+          "source": "Paper original · arXiv, versión 4",
+          "url": "https://arxiv.org/abs/2608.19741v4"
+        }
+      ]
+    },
+    {
+      "id": "tts-evaluacion",
+      "section": "research",
+      "categories": [
+        "Investigación",
+        "Benchmarks",
+        "Voz"
+      ],
+      "eventDate": "2026-09-30",
+      "sourceDate": "2026-09-30",
+      "dateContext": "Anuncio o publicación de la novedad dentro del periodo.",
+      "status": "Confirmado",
+      "label": "Research · Hugging Face",
+      "title": "Open TTS Leaderboard separa inteligibilidad, voz y latencia",
+      "summary": "La nueva clasificación abierta de texto a voz compara errores de transcripción, similitud del hablante y velocidad, con evaluación multilingüe y de clonación de voz. Sus autores advierten que esas métricas no sustituyen la preferencia humana ni miden directamente naturalidad o expresividad.",
+      "why": "Elegir una voz exige evaluar el idioma y el uso concreto. Una buena puntuación de transcripción no garantiza que resulte agradable o adecuada para conversar.",
+      "source": "Hugging Face · Open TTS Leaderboard",
+      "url": "https://huggingface.co/blog/open-tts-leaderboard",
+      "verification": "Fuente abierta y texto pertinente leído el 9 de octubre de 2026. Se contrastaron fecha, alcance y cifras; las evaluaciones y previsiones se atribuyen a su emisor."
+    },
+    {
+      "id": "nvidia-recompra",
+      "section": "mercados",
+      "categories": [
+        "Bolsa",
+        "Empresa"
+      ],
+      "eventDate": "2026-09-28",
+      "sourceDate": "2026-09-28",
+      "dateContext": "Anuncio o publicación de la novedad dentro del periodo.",
+      "status": "Confirmado",
+      "label": "Mercados · NVIDIA",
+      "title": "NVIDIA amplía en 150.000 millones de dólares su autorización de recompra",
+      "summary": "NVIDIA añade 150.000 millones de dólares al programa de recompra y eleva el importe restante autorizado a 235.000 millones, con ejecución prevista hasta su ejercicio fiscal 2028. Es una autorización. Reuters sitúa la subida de la acción en el 1,7 % al cierre de la sesión estadounidense del 28 de septiembre, no en el conjunto de la semana.",
+      "why": "El anuncio vincula la generación de caja de la infraestructura de IA con el retorno al accionista; ni la autorización ni la reacción de una sesión garantizan resultados futuros.",
+      "source": "NVIDIA · comunicado financiero",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-a-150-billion-share-repurchase-authorization-increase",
+      "verification": "Fuente abierta y texto pertinente leído el 9 de octubre de 2026. Se contrastaron fecha, alcance y cifras; las evaluaciones y previsiones se atribuyen a su emisor.",
+      "additionalSources": [
+        {
+          "source": "Reuters vía London South East · cierre del 28 de septiembre",
+          "url": "https://www.lse.co.uk/news/NVDA.US/global-markets-stocks-fall-oil-prices-off-highs-amid-renewed-hopes-for-middle-east-negotiations-6sfy7m4dx0qkzm0.html?page=7"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-prospecto",
+      "section": "startups",
+      "categories": [
+        "Inversión",
+        "Empresa"
+      ],
+      "eventDate": "2026-09-28",
+      "sourceDate": "2026-09-28",
+      "dateContext": "Revelación periodística del 28 sobre cuentas de 2025; no se atribuyen esas cuentas ni la salida a bolsa a esta semana.",
+      "status": "Información de terceros",
+      "label": "Inversión · Anthropic",
+      "title": "Reuters detalla el coste de crecimiento de Anthropic antes de su OPV",
+      "summary": "Reuters informa, tras consultar el prospecto, de cerca de 4.600 millones de dólares de ingresos en 2025 y unos 42.000 millones de pérdida neta. Aproximadamente 34.000 millones corresponden a un cargo contable ligado a financiación convertible, no a gasto operativo en efectivo. La compañía declinó comentar; no se trata de una OPV ya completada.",
+      "why": "Separar pérdidas contables, gasto operativo y previsiones evita confundir el tamaño de la inversión con el consumo real de caja.",
+      "source": "Reuters · texto sindicado por WHBL",
+      "url": "https://whbl.com/2026/09/28/exclusive-anthropics-ipo-prospectus-shows-sweeping-ai-vision-surging-costs/",
+      "verification": "Leído el texto completo de Reuters. Cifras atribuidas al prospecto consultado por la agencia; no se verificó un documento público completo. No se presenta una valoración objetivo como operación cerrada."
+    },
+    {
+      "id": "ascerta-ronda",
+      "section": "startups",
+      "categories": [
+        "Startups",
+        "Inversión",
+        "Empresa"
+      ],
+      "eventDate": "2026-09-30",
+      "sourceDate": "2026-09-30",
+      "dateContext": "Anuncio o publicación de la novedad dentro del periodo.",
+      "status": "Confirmado",
+      "label": "Startups · Ascerta",
+      "title": "Ascerta capta 18 millones de dólares para medir el valor de la IA",
+      "summary": "La empresa antes conocida como Pay-i anuncia una serie A de 18 millones de dólares liderada por Dell Technologies Capital. La financiación acumulada asciende a 22,9 millones. Su plataforma relaciona coste, adopción y resultados de las iniciativas de IA; la ronda financiará producto y expansión comercial.",
+      "why": "A medida que crecen licencias y ejecuciones de agentes, las empresas necesitan distinguir uso de valor obtenido. Esa necesidad abre mercado para herramientas de gestión y medición.",
+      "source": "Ascerta · comunicado de financiación",
+      "url": "https://ascerta.com/resources/press/ascerta-raises-18m-series-a",
+      "verification": "Fuente abierta y texto pertinente leído el 9 de octubre de 2026. Se contrastaron fecha, alcance y cifras; las evaluaciones y previsiones se atribuyen a su emisor."
+    },
+    {
+      "id": "deepseek-ascend",
+      "section": "infraestructura",
+      "categories": [
+        "Hardware",
+        "Infraestructura",
+        "Geopolítica"
+      ],
+      "eventDate": "2026-09-30",
+      "sourceDate": "2026-09-30",
+      "dateContext": "Despacho fechado en Hong Kong el 30; el portal muestra el 29 por su reloj de publicación. Se sigue la fecha del acontecimiento.",
+      "status": "Información de terceros",
+      "label": "Chips · DeepSeek y Huawei",
+      "title": "DeepSeek y Huawei impulsan herramientas para Ascend",
+      "summary": "Reuters informa de una colaboración anunciada por DeepSeek para desarrollar herramientas de programación para los chips Ascend de Huawei. La compañía describe la apertura de infraestructura basada en TileLang y bibliotecas de cómputo y comunicación. El repositorio del adaptador Ascend permite inspeccionar la implementación; no acredita por sí solo superioridad frente a CUDA.",
+      "why": "La alternativa a un proveedor de chips también depende de compiladores, bibliotecas y herramientas que faciliten mover las cargas de IA.",
+      "source": "Reuters vía Investing.com · anuncio de la colaboración",
+      "url": "https://www.investing.com/news/stock-market-news/deepseek-partners-with-huawei-to-develop-chip-programming-tools-reducing-reliance-on-nvidia-4924051",
+      "verification": "Texto de Reuters leído y repositorio oficial abierto. El anuncio de WeChat se conoce a través de Reuters; no se afirman resultados comparativos independientes.",
+      "additionalSources": [
+        {
+          "source": "TileLang · repositorio del adaptador Ascend",
+          "url": "https://github.com/tile-ai/tilelang-ascend"
+        }
+      ]
+    },
+    {
+      "id": "amazon-comunidades",
+      "section": "infraestructura",
+      "categories": [
+        "Infraestructura",
+        "Energía",
+        "Empresa"
+      ],
+      "eventDate": "2026-10-02",
+      "sourceDate": "2026-10-02",
+      "dateContext": "Anuncio o publicación de la novedad dentro del periodo.",
+      "status": "Confirmado",
+      "label": "Infraestructura · Amazon",
+      "title": "Amazon promete más de 1.000 millones para comunidades con centros de datos",
+      "summary": "Amazon anuncia Built Together, un programa que añadirá más de 1.000 millones de dólares en cinco años para educación, formación laboral, energía, agua y prioridades locales, empezando en Estados Unidos. También afirma que deja de usar acuerdos de confidencialidad con agencias públicas en sus proyectos. Son compromisos anunciados, no resultados de inversión ya ejecutada.",
+      "why": "La expansión de la capacidad de IA depende también de su aceptación local. El impacto deberá medirse en acuerdos, costes y recursos de cada comunidad.",
+      "source": "Amazon · comunicado de Matt Garman",
+      "url": "https://www.aboutamazon.com/news/company-news/amazon-data-centers-built-together",
+      "verification": "Fuente abierta y texto pertinente leído el 9 de octubre de 2026. Se contrastaron fecha, alcance y cifras; las evaluaciones y previsiones se atribuyen a su emisor.",
+      "additionalSources": [
+        {
+          "source": "Amazon Sustainability · fecha del anuncio",
+          "url": "https://sustainability.aboutamazon.com/builttogether"
+        }
+      ]
+    },
+    {
+      "id": "acuerdo-casa-blanca",
+      "section": "politica",
+      "categories": [
+        "Política",
+        "Regulación"
+      ],
+      "eventDate": "2026-09-29",
+      "sourceDate": "2026-09-29",
+      "dateContext": "Anuncio o publicación de la novedad dentro del periodo.",
+      "status": "Confirmado",
+      "label": "Política · Estados Unidos",
+      "title": "Seis empresas firman un acuerdo voluntario de controles de IA",
+      "summary": "Google, Anthropic, Meta, OpenAI, xAI y NVIDIA firman con Donald Trump un compromiso sobre controles internos, equipos responsables, evaluación externa y supervisión por un comité independiente del consejo. El texto contempla una posible codificación futura: el acuerdo no es por sí mismo una nueva ley.",
+      "why": "El punto a seguir es cómo se convierten esos compromisos en evaluaciones y correcciones verificables, y qué información llega al público.",
+      "source": "Texto del acuerdo · The American Presidency Project",
+      "url": "https://www.presidency.ucsb.edu/documents/white-house-accord-super-intelligence",
+      "verification": "Fuente abierta y texto pertinente leído el 9 de octubre de 2026. Se contrastaron fecha, alcance y cifras; las evaluaciones y previsiones se atribuyen a su emisor."
+    },
+    {
+      "id": "ftc-investigacion",
+      "section": "politica",
+      "categories": [
+        "Regulación",
+        "Seguridad"
+      ],
+      "eventDate": "2026-09-30",
+      "sourceDate": "2026-09-30",
+      "dateContext": "Confirmación pública el 30 de septiembre; AP recoge que otros medios sitúan el inicio meses antes.",
+      "status": "Información de terceros",
+      "label": "Regulación · FTC",
+      "title": "La FTC confirma una investigación sobre riesgos de la IA",
+      "summary": "Associated Press recoge la confirmación de un portavoz de la FTC de que investiga a OpenAI, Anthropic y otras compañías por posibles riesgos para consumidores. La agencia no amplió detalles. La confirmación pública del 30 de septiembre no fija el inicio del expediente ni demuestra una infracción.",
+      "why": "La investigación introduce supervisión pública sobre el comportamiento de agentes; su alcance y posibles consecuencias seguían pendientes al cierre.",
+      "source": "Associated Press · confirmación de la FTC",
+      "url": "https://apnews.com/article/ftc-ai-investigation-anthropic-openai-89ac416717adbfb1d72f2d85e6ce83d1",
+      "verification": "Fuente abierta y texto pertinente leído el 9 de octubre de 2026. Se contrastaron fecha, alcance y cifras; las evaluaciones y previsiones se atribuyen a su emisor."
+    },
+    {
+      "id": "grupo-federal-ia",
+      "section": "politica",
+      "categories": [
+        "Política",
+        "Regulación"
+      ],
+      "eventDate": "2026-10-04",
+      "sourceDate": "2026-10-04",
+      "dateContext": "Anuncio o publicación de la novedad dentro del periodo.",
+      "status": "Información de terceros",
+      "label": "Política · Estados Unidos",
+      "title": "Trump encarga a Jay Clayton un nuevo grupo federal sobre IA",
+      "summary": "Según Associated Press, Trump anuncia el domingo que el director de Inteligencia Nacional, Jay Clayton, dirigirá la «Super Intelligence Force». El grupo coordinará la acción federal y consultará a consumidores, organizaciones y empresas. El anuncio no establece una nueva norma vinculante para los modelos.",
+      "why": "Tras el acuerdo voluntario, será relevante observar qué competencias, medidas y mecanismos de rendición de cuentas adopta el grupo.",
+      "source": "Associated Press · anuncio del 4 de octubre",
+      "url": "https://apnews.com/article/trump-jay-clayton-artificial-intelligence-task-force-b8689ea07de9102a52bd1cd2049b5901",
+      "verification": "Fuente abierta y texto pertinente leído el 9 de octubre de 2026. Se contrastaron fecha, alcance y cifras; las evaluaciones y previsiones se atribuyen a su emisor."
+    },
+    {
+      "id": "nvidia-contencion",
+      "section": "seguridad",
+      "categories": [
+        "Seguridad",
+        "Hardware"
+      ],
+      "eventDate": "2026-09-28",
+      "sourceDate": "2026-09-28",
+      "dateContext": "Anuncio o publicación de la novedad dentro del periodo.",
+      "status": "Confirmado",
+      "label": "Seguridad · NVIDIA",
+      "title": "OpenShell y Sentry proponen controlar agentes desde fuera del modelo",
+      "summary": "NVIDIA presenta Open Agent Safety Platform. OpenShell aplica límites de ejecución y políticas; el diseño de referencia Sentry añade vigilancia independiente sobre DPUs BlueField-4. NVIDIA afirma que puede aislar agentes en milisegundos: es una afirmación del proveedor, no una garantía demostrada aquí frente a cualquier ataque.",
+      "why": "Separar los controles del agente reduce la dependencia de que el propio modelo respete instrucciones. La eficacia exige pruebas de evasión y respuesta operativa.",
+      "source": "NVIDIA · Open Agent Safety Platform",
+      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Launches-Open-Agent-Safety-Platform-to-Secure-Agents-From-Testing-to-Deployment/",
+      "verification": "Fuente abierta y texto pertinente leído el 9 de octubre de 2026. Se contrastaron fecha, alcance y cifras; las evaluaciones y previsiones se atribuyen a su emisor."
+    },
+    {
+      "id": "astra-aplazamiento",
+      "section": "seguridad",
+      "categories": [
+        "Seguridad",
+        "Modelos"
+      ],
+      "eventDate": "2026-09-28",
+      "sourceDate": "2026-09-28",
+      "dateContext": "Anuncio o publicación de la novedad dentro del periodo.",
+      "status": "Información de terceros",
+      "label": "Seguridad · OpenAI",
+      "title": "OpenAI aplaza GPT-6.1 Astra por dudas de seguridad",
+      "summary": "Associated Press informa de que OpenAI retrasa GPT-6.1 Astra tras preocupaciones de sus investigadores. La agencia recoge una declaración de la responsable de seguridad sobre el equilibrio entre persistencia al completar tareas y comportamiento no autorizado. Es el aplazamiento de esa versión, no la retirada de los modelos ya disponibles.",
+      "why": "Un lanzamiento retenido recuerda que mejorar capacidad y cumplir criterios de seguridad son decisiones distintas.",
+      "source": "Associated Press · declaración de OpenAI",
+      "url": "https://apnews.com/article/open-ai-artificial-intelligence-altman-trump-astra-5afb865b2cddc439efdcf31ebdc406a5",
+      "verification": "Fuente abierta y texto pertinente leído el 9 de octubre de 2026. Se contrastaron fecha, alcance y cifras; las evaluaciones y previsiones se atribuyen a su emisor."
+    },
+    {
+      "id": "safety-cases",
+      "section": "seguridad",
+      "categories": [
+        "Seguridad",
+        "Investigación"
+      ],
+      "eventDate": "2026-09-28",
+      "sourceDate": "2026-09-28",
+      "dateContext": "Anuncio o publicación de la novedad dentro del periodo.",
+      "status": "Confirmado",
+      "label": "Seguridad · OpenAI",
+      "title": "OpenAI propone documentación de seguridad para entrenamientos de frontera",
+      "summary": "OpenAI publica pautas iniciales para justificar con evidencias la seguridad de entrenamientos de refuerzo avanzados. Incluyen alineamiento, contención, monitorización, revisión independiente dentro de la organización e investigación de incidentes. La empresa presenta los «safety cases» como un objetivo en desarrollo, no como una certificación ya alcanzada.",
+      "why": "Hacer explícita la evidencia y quién puede detener una ejecución permite discutir riesgos concretos y responsabilidades operativas.",
+      "source": "OpenAI · propuesta de safety cases",
+      "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training/",
+      "verification": "Fuente abierta y texto pertinente leído el 9 de octubre de 2026. Se contrastaron fecha, alcance y cifras; las evaluaciones y previsiones se atribuyen a su emisor."
+    },
+    {
+      "id": "robots-empleo",
+      "section": "research",
+      "categories": [
+        "Investigación",
+        "Empleo"
+      ],
+      "eventDate": "2026-09-30",
+      "sourceDate": "2026-09-30",
+      "dateContext": "Anuncio o publicación de la novedad dentro del periodo.",
+      "status": "Confirmado",
+      "label": "Research · Anthropic",
+      "title": "La capacidad de un robot no basta para que su trabajo sea rentable",
+      "summary": "Un estudio de Anthropic estima que los robots pueden realizar tareas que representan el 34 % de las horas trabajadas en Estados Unidos, principalmente en entornos controlados. Sin embargo, solo resultarían competitivos en coste para el 0,3 % del trabajo bajo sus supuestos. El índice usa Claude para evaluar tareas y estimar el tiempo dedicado a ellas.",
+      "why": "Son estimaciones de exposición técnica y económica, no una predicción de empleos que desaparecerán. La metodología y el entorno importan tanto como el porcentaje.",
+      "source": "Anthropic · estudio de exposición a robots",
+      "url": "https://www.anthropic.com/research/what-work-can-robots-do",
+      "verification": "Fuente abierta y texto pertinente leído el 9 de octubre de 2026. Se contrastaron fecha, alcance y cifras; las evaluaciones y previsiones se atribuyen a su emisor."
+    },
+    {
+      "id": "micron-resultados",
+      "section": "mercados",
+      "categories": [
+        "Bolsa",
+        "Hardware",
+        "Empresa"
+      ],
+      "eventDate": "2026-09-30",
+      "sourceDate": "2026-09-30",
+      "dateContext": "Publicación de resultados el 30 de septiembre; trimestre y ejercicio fiscal cerrados el 3 de septiembre.",
+      "status": "Confirmado",
+      "label": "Mercados · Micron",
+      "title": "Micron presenta ingresos trimestrales de 54.230 millones de dólares",
+      "summary": "Micron comunica ingresos de 54.230 millones de dólares en su cuarto trimestre fiscal, frente a 41.460 millones en el anterior y 11.320 millones un año antes. El trimestre terminó el 3 de septiembre; los resultados se publican el 30. La compañía atribuye el impulso a la demanda de IA y prevé un ejercicio fiscal 2027 más fuerte.",
+      "why": "Los resultados permiten observar cómo la demanda de memoria se transforma en ventas. La expectativa para 2027 sigue siendo una previsión de la empresa.",
+      "source": "Micron · resultados fiscales de 2026",
+      "url": "https://investors.micron.com/news/press-release/2026/Micron-Technology-Inc--Reports-Record-Fiscal-Fourth-Quarter-and-Full-Year-2026-Results/default.aspx",
+      "verification": "Fuente abierta y texto pertinente leído el 9 de octubre de 2026. Se contrastaron fecha, alcance y cifras; las evaluaciones y previsiones se atribuyen a su emisor."
+    },
+    {
+      "id": "sima-serie-c",
+      "section": "startups",
+      "categories": [
+        "Startups",
+        "Inversión",
+        "Hardware"
+      ],
+      "eventDate": "2026-09-28",
+      "sourceDate": "2026-09-28",
+      "dateContext": "Anuncio o publicación de la novedad dentro del periodo.",
+      "status": "Confirmado",
+      "label": "Inversión · SiMa.ai",
+      "title": "SiMa.ai capta 150 millones para IA física",
+      "summary": "SiMa.ai anuncia una serie C de 150 millones de dólares, coliderada por Fidelity Management & Research Company y Amplify. La operación sitúa la valoración en 1.450 millones y el capital acumulado en 500 millones. Financiará la expansión de Palette Neat y hardware de próxima generación, previsto para el primer semestre de 2028.",
+      "why": "La ronda financia una hoja de ruta de software y chips para robótica, automoción y drones. El calendario anunciado no implica que ese hardware ya esté disponible.",
+      "source": "SiMa.ai · comunicado de financiación",
+      "url": "https://sima.ai/press-release/sima-ai-reaches-1-45b-valuation-with-500-million-in-total-funding-to-scale-physical-ai-in-humanoids-automotive-and-drones/",
+      "verification": "Fuente abierta y texto pertinente leído el 9 de octubre de 2026. Se contrastaron fecha, alcance y cifras; las evaluaciones y previsiones se atribuyen a su emisor."
+    },
+    {
+      "id": "california-empleo",
+      "section": "politica",
+      "categories": [
+        "Regulación",
+        "Empleo"
+      ],
+      "eventDate": "2026-09-30",
+      "sourceDate": "2026-09-30",
+      "dateContext": "Aprobación y registro el 30 de septiembre; disposiciones operativas desde el 1 de julio de 2027.",
+      "status": "Confirmado",
+      "label": "Regulación · California",
+      "title": "California exige revisión humana de decisiones laborales automatizadas",
+      "summary": "California aprueba SB 947, cuyas disposiciones serán operativas el 1 de julio de 2027. Prohíbe basar exclusivamente en sistemas automatizados una decisión disciplinaria o de despido. Si se depende principalmente de su resultado, exige corroboración humana y aviso escrito; también permite solicitar una descripción de los datos propios utilizados. El texto contempla excepciones específicas.",
+      "why": "Las empresas afectadas deberán poder justificar la decisión y documentar la revisión. La fecha de aprobación y la de aplicación son distintas.",
+      "source": "California · texto promulgado de SB 947, reproducido por LegiScan",
+      "url": "https://legiscan.com/CA/text/SB947/2025",
+      "verification": "Fuente abierta y texto pertinente leído el 9 de octubre de 2026. Se contrastaron fecha, alcance y cifras; las evaluaciones y previsiones se atribuyen a su emisor."
+    }
+  ],
+  "highlights": [
+    {
+      "label": "La disponibilidad también cuenta",
+      "text": "Comparar modelos requiere distinguir precios, acceso real y resultados del proveedor. Argon muestra por qué anunciar capacidad no equivale a abrirla a todo el mercado.",
+      "articleId": "gemini-argon"
+    },
+    {
+      "label": "Verificar el resultado del agente",
+      "text": "ThinkingBox centra la evaluación en cambios persistentes y repetibilidad: una tarea termina cuando el sistema queda en el estado correcto.",
+      "articleId": "thinkingbox"
+    },
+    {
+      "label": "Controles que se puedan comprobar",
+      "text": "El acuerdo de Washington abre compromisos de auditoría; su valor dependerá de la evidencia publicada y de cómo se corrijan los problemas detectados.",
+      "articleId": "acuerdo-casa-blanca"
+    }
+  ],
+  "watchContext": "Agenda del 5 al 11 de octubre, planteada con información al cierre del día 4. Esta edición se publica con retraso el 9; no incorpora resultados posteriores al periodo.",
+  "watch": [
+    "Disponibilidad pendiente al cierre: vigilar la ampliación de acceso a Gemini 4 Argon y sus condiciones regionales; no había una fecha general confirmada.",
+    "Seguimiento regulatorio: comprobar si la FTC o el nuevo grupo federal concretan alcance, calendario y mecanismos de supervisión. Una investigación no es una sanción.",
+    "Validación técnica: probar permisos y resultados de computer use en Copilot y de los nuevos flujos de agentes antes de extenderlos a procesos compartidos.",
+    "Compromisos de infraestructura: buscar detalles locales y métricas de ejecución de Built Together, sin convertir la promesa plurianual en gasto realizado.",
+    "Seguridad de modelos: seguir nuevas comunicaciones sobre GPT-6.1 Astra y los criterios para reanudar su lanzamiento; al cierre no se daba una fecha confirmada."
+  ]
+}

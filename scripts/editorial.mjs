@@ -34,7 +34,12 @@ export function validateContent(edition, content) {
     assert.equal(content.period.endDate, edition.endDate);
     assert.equal(new Date(edition.startDate+'T12:00:00Z').getUTCDay(), 1);
     assert.equal((Date.parse(edition.endDate)-Date.parse(edition.startDate))/86400000, 6);
-    assert.equal((Date.parse(edition.publishedAt)-Date.parse(edition.endDate))/86400000, 1);
+    // A delayed run retains its closed editorial week and records the real publication date.
+    for (const value of [edition.publishedAt, content.researchedAt]) {
+      assert(/^\d{4}-\d{2}-\d{2}$/.test(value) && new Date(value+'T12:00:00Z').toISOString().slice(0,10) === value, 'Fecha de publicación/consulta inválida');
+    }
+    assert(Date.parse(edition.publishedAt) > Date.parse(edition.endDate), 'Publicación anterior al cierre');
+    assert(content.researchedAt <= edition.publishedAt && content.researchedAt > edition.endDate, 'Consulta fuera del cierre/publicación');
     assert.equal(content.briefing.length, 3);
     for (const item of [...content.briefing, ...content.highlights]) assert(item.label && item.text && ids.has(item.articleId), 'Resumen sin noticia de respaldo');
     assert(content.highlights.length > 0);
